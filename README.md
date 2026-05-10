@@ -10,13 +10,10 @@ Empresas do setor automotivo recebem um alto volume de perguntas repetitivas (pr
 Aplicação web com chatbot automatizado baseado em regras, com possibilidade de evolução para uso de inteligência artificial.
 
 ## 🚀 Tecnologias
-- Backend: Node.js ou Python
-- Frontend: HTML, CSS, JavaScript
+- Backend: Node.js com Express
+- Frontend: HTML, CSS e JavaScript
+- Comunicação: HTTP (API REST)
 - Deploy: plataformas gratuitas
-
-## 📌 Próximos passos (TP2)
-- Definição da arquitetura (C4 Model)
-- Implementação inicial do chatbot
 
 ## 🧱 Arquitetura
 
@@ -27,6 +24,24 @@ Mais detalhes em:
 
 ---
 
-## 📊 Status do Projeto
+## 🚀 Estado Atual do Projeto (TP3)
 
-🚧 TP2 concluído — Arquitetura definida
+Nesta etapa, foi desenvolvida uma primeira versão funcional do chatbot.
+
+Atualmente, o sistema é capaz de:
+
+- Receber mensagens enviadas pelo usuário
+- Enviar mensagens do frontend para o backend
+- Processar requisições HTTP
+- Retornar respostas automáticas
+
+O objetivo desta entrega foi validar a comunicação entre frontend e backend, permitindo evolução futura da lógica do chatbot.
+
+---
+
+## 📹 Demonstração
+
+O vídeo demonstrando o funcionamento do sistema encontra-se na pasta:
+
+```plaintext
+Videos/
