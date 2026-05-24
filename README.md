@@ -1,47 +1,67 @@
-# Chatbot de Atendimento - Pneus Nacional
+# Chatbot Pneus Nacional
+
+Chatbot de atendimento para a borracharia **Pneus Nacional**, desenvolvido como projeto acadêmico utilizando o processo **Scrum** com sprints quinzenais.
 
 ## 🎯 Objetivo
-Desenvolver um chatbot para automatizar o atendimento inicial ao cliente, respondendo dúvidas frequentes de forma rápida e eficiente.
 
-## ❗ Problema
-Empresas do setor automotivo recebem um alto volume de perguntas repetitivas (preços, serviços, horários), o que gera sobrecarga no atendimento humano e demora nas respostas.
+Resolver o problema de atendimento fora do horário comercial de pequenas borracharias, oferecendo um chatbot capaz de responder perguntas frequentes sobre preços, serviços, localização e horários — 24 horas por dia.
 
-## 💻 Tipo de Solução
-Aplicação web com chatbot automatizado baseado em regras, com possibilidade de evolução para uso de inteligência artificial.
+## 📁 Estrutura do Repositório
 
-## 🚀 Tecnologias
-- Backend: Node.js com Express
-- Frontend: HTML, CSS e JavaScript
-- Comunicação: HTTP (API REST)
-- Deploy: plataformas gratuitas
+```
+chatbot-pneus-nacional/
+├── backend/
+│   ├── server.js          # API Express com lógica do chatbot
+│   ├── server.test.js     # Testes automatizados (Jest + Supertest)
+│   └── package.json
+├── frontend/
+│   ├── index.html         # Interface do chatbot
+│   ├── script.js          # Lógica de comunicação com a API
+│   └── style.css          # Estilos
+├── docs/
+│   ├── requisitos.md      # Requisitos funcionais e não funcionais
+│   ├── caso-de-uso.md     # Diagrama de casos de uso
+│   ├── arquitetura.md     # Arquitetura C4
+│   └── plano-de-testes.md # Plano e resultados dos testes (TP4)
+├── Videos/
+│   └── demo.mp4
+└── README.md
+```
 
-## 🧱 Arquitetura
+## 🚀 Como Executar
 
-A arquitetura do sistema foi definida utilizando o modelo C4, com separação entre frontend, backend e componentes internos do chatbot.
+### Backend
+```bash
+cd backend
+npm install
+npm start
+# Servidor em http://localhost:3000
+```
 
-Mais detalhes em:
-📄 docs/arquitetura.md
+### Frontend
+Abra o arquivo `frontend/index.html` no navegador.
 
----
+### Testes
+```bash
+cd backend
+npm test
+```
 
-## 🚀 Estado Atual do Projeto (TP3)
+## ✅ Sprints
 
-Nesta etapa, foi desenvolvida uma primeira versão funcional do chatbot.
+| Sprint | Status | Entregável |
+|--------|--------|-----------|
+| TP1 | ✅ Concluído | Definição de requisitos e casos de uso |
+| TP2 | ✅ Concluído | Arquitetura C4 e planejamento técnico |
+| TP3 | ✅ Concluído | Primeiro entregável funcional |
+| TP4 | ✅ Concluído | Chatbot com lógica real + plano de testes |
+| TP5 | 🔲 Planejado | Evolução + execução dos testes |
+| TP6 | 🔲 Planejado | Entrega final |
 
-Atualmente, o sistema é capaz de:
+## 🛠 Tecnologias
 
-- Receber mensagens enviadas pelo usuário
-- Enviar mensagens do frontend para o backend
-- Processar requisições HTTP
-- Retornar respostas automáticas
-
-O objetivo desta entrega foi validar a comunicação entre frontend e backend, permitindo evolução futura da lógica do chatbot.
-
----
-
-## 📹 Demonstração
-
-O vídeo demonstrando o funcionamento do sistema encontra-se na pasta:
-
-```plaintext
-Videos/
+- **Backend:** Node.js + Express
+- **Frontend:** HTML, CSS, JavaScript (vanilla)
+- **Testes:** Jest + Supertest
+- **Versionamento:** Git + GitHub
+- **Gestão:** GitHub Projects (Scrum)

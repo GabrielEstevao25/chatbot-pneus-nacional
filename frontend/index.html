@@ -2,18 +2,32 @@
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <title>Chatbot Pneus Nacional</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatbot – Pneus Nacional</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
     <div class="chat-container">
-        <h1>Chatbot Pneus Nacional</h1>
+        <div class="chat-header">
+            <div class="avatar">🚗</div>
+            <div>
+                <h1>Pneus Nacional</h1>
+                <span class="status">● Online</span>
+            </div>
+        </div>
 
-        <div id="chat"></div>
+        <div id="chat" class="chat-messages"></div>
 
-        <input type="text" id="mensagem" placeholder="Digite sua mensagem">
-        <button onclick="enviarMensagem()">Enviar</button>
+        <div id="menu-rapido" class="menu-rapido">
+            <button onclick="enviarOpcao('encontrar_pneus', '🔍 Encontrar Pneus')">🔍 Encontrar Pneus</button>
+            <button onclick="enviarOpcao('servicos', '🔧 Serviços/Peças/Óleo')">🔧 Serviços/Peças/Óleo</button>
+            <button onclick="enviarOpcao('enderecos', '📍 Endereços/Telefones')">📍 Endereços/Telefones</button>
+        </div>
+
+        <div class="chat-input">
+            <input type="text" id="mensagem" placeholder="Digite sua mensagem..." onkeypress="if(event.key==='Enter') enviarMensagem()" autocomplete="off">
+            <button id="btnEnviar" onclick="enviarMensagem()">➤</button>
+        </div>
     </div>
 
     <script src="script.js"></script>

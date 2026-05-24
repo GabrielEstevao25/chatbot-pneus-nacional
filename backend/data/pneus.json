@@ -1,0 +1,74 @@
+[
+  {
+    "medida": "175/70R14",
+    "marca": "GOODYEAR",
+    "modelo": "KELLY EDGE TOURING2 88T XL",
+    "preco_pix": 450.26,
+    "preco_parcelado": 479.00,
+    "parcelas": 8
+  },
+  {
+    "medida": "175/70R14",
+    "marca": "GOODYEAR",
+    "modelo": "ASSURANCE MAXLIFE 88T XL",
+    "preco_pix": 493.50,
+    "preco_parcelado": 525.00,
+    "parcelas": 8
+  },
+  {
+    "medida": "175/70R14",
+    "marca": "GOODYEAR",
+    "modelo": "EFFICIENTGRIP PERF 88T XL",
+    "preco_pix": 540.50,
+    "preco_parcelado": 575.00,
+    "parcelas": 8
+  },
+  {
+    "medida": "185/65R15",
+    "marca": "GOODYEAR",
+    "modelo": "KELLY EDGE SPORT 2 88H SL",
+    "preco_pix": 469.06,
+    "preco_parcelado": 499.00,
+    "parcelas": 8
+  },
+  {
+    "medida": "185/65R15",
+    "marca": "GOODYEAR",
+    "modelo": "EAGLE SPORT 2 88H SL",
+    "preco_pix": 540.50,
+    "preco_parcelado": 575.00,
+    "parcelas": 8
+  },
+  {
+    "medida": "185/65R15",
+    "marca": "GOODYEAR",
+    "modelo": "EAGLE TOURING 88H SL",
+    "preco_pix": 573.40,
+    "preco_parcelado": 610.00,
+    "parcelas": 8
+  },
+  {
+    "medida": "225/45R19",
+    "marca": "PRINX",
+    "modelo": "XNEX SPORT EV 96W",
+    "preco_pix": 874.20,
+    "preco_parcelado": 930.00,
+    "parcelas": 8
+  },
+  {
+    "medida": "225/45R19",
+    "marca": "GOODYEAR",
+    "modelo": "EAGLE F1 ASYMMETRIC3 92W RUNFLAT",
+    "preco_pix": 2585.00,
+    "preco_parcelado": 2750.00,
+    "parcelas": 8
+  },
+  {
+    "medida": "225/45R19",
+    "marca": "GOODYEAR",
+    "modelo": "EAGLE F1 ASYMMETRIC3 96W *RSC XL ROF FP RUNFLAT",
+    "preco_pix": 3092.60,
+    "preco_parcelado": 3290.00,
+    "parcelas": 8
+  }
+]
